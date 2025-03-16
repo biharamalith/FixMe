@@ -1,16 +1,19 @@
-# fixme_fresh
+# fixme
 
 A new Flutter project.
 
-## Getting Started
+FixMe - Service Booking Platform FixMe is a service booking platform built using flutter for modern, efficient, and intuitive mobile app development. This platform allows users to book services, manage appointments, and handle payments seamlessly.
 
-This project is a starting point for a Flutter application.
+🚀 Features
+   🔐 User registration and authentication
+   👷‍♂️ Service provider management Real-time booking and status updates
+   💳 Secure payment integration
+   🔔 Push notifications
+   🕵️‍♀️ Admin panel for managing bookings and users
+   ⚙  Machine leaning smart service reccomendetion
 
-A few resources to get you started if this is your first Flutter project:
+🛠️ Tech Stack Language: Flutter
+📅 Database: Room (local) / Firebase Firestore (cloud) 
+🔐 Authentication: Firebase Auth Notifications: Firebase Cloud Messaging (FCM) 
+📦 Installation Prerequisites Android Studio (Arctic Fox or newer) JDK 17+,VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
