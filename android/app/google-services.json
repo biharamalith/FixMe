@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "813520767382",
+    "firebase_url": "https://fixme-66594-default-rtdb.firebaseio.com",
+    "project_id": "fixme-66594",
+    "storage_bucket": "fixme-66594.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813520767382:android:f89fc3375c56626e3075b7",
+        "android_client_info": {
+          "package_name": "com.example.fixme_fresh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLyJ9PUVozNqJXfd6UZWSBibhuorzLCDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
