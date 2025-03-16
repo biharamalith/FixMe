@@ -1,5 +1,6 @@
 // lib/app.dart
 
+//import 'package:fixme_new/features/auth/presentation/views/notification_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'features/splash/presentation/viewmodels/splash_viewmodel.dart';
@@ -12,6 +13,7 @@ import 'features/starting/presentation/views/starting_screen.dart';
 import 'features/auth/presentation/views/sign_in_screen.dart';
 import 'features/auth/presentation/views/sign_up_screen.dart';
 import 'features/auth/presentation/views/home_screen.dart';
+import 'features/auth/presentation/views/notification_screen.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -46,6 +48,7 @@ class App extends StatelessWidget {
           '/sign-in': (context) => const SignInScreen(),
           '/sign-up': (context) => const SignUpScreen(),
           '/home': (context) => HomeScreen(),
+          '/notification': (context) => const NotificationScreen(),
         },
       ),
     );
