@@ -14,7 +14,7 @@
             "value": "c:\\Program Files\\Java\\jdk-17"
         }
     ],
-    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.updateBuildConfiguration": "automatic",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-17",
