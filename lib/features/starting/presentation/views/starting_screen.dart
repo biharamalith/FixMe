@@ -11,15 +11,15 @@ class StartingScreen extends StatelessWidget {
 
     return Scaffold(
       body: Container(
-        color: const Color.fromARGB(255, 255, 255, 255), // Yellow background from Figma
+        color: const Color.fromARGB(255, 255, 255, 255), 
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(height: 20),
               Image.asset(
-                'assets/plumber-drowning-himself.jpg', // Ensure correct path
-                width: 350, // Adjust size if needed
+                'assets/plumber-drowning-himself.jpg', 
+                width: 350, 
                 height: 350,
                 fit: BoxFit.contain,
               ),
@@ -44,7 +44,7 @@ class StartingScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () => startingViewModel.navigateToSignIn(context),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFFFD700), // Match Figma button color
+                  backgroundColor: const Color(0xFFFFD700), 
                   foregroundColor: Colors.black,
                   minimumSize: const Size(200, 50),
                   shape: RoundedRectangleBorder(

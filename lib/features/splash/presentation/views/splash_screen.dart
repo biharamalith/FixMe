@@ -9,17 +9,17 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final splashViewModel = Provider.of<SplashViewModel>(context, listen: false);
 
-    // Trigger navigation
+   
     WidgetsBinding.instance.addPostFrameCallback((_) {
       splashViewModel.navigateToStartingScreen(context);
     });
 
     return Scaffold(
-      backgroundColor: const Color(0xFFFFE730), // Set background color
+      backgroundColor: const Color(0xFFFFE730), 
       body: Center(
         child: Image.asset(
-          'assets/fixme-new.jpg', // Ensure correct path
-          width: 150, // Adjust size if needed
+          'assets/fixme-new.jpg', 
+          width: 150, 
           height: 150,
           fit: BoxFit.contain,
         ),

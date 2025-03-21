@@ -1,6 +1,7 @@
-// lib/app.dart
 
-//import 'package:fixme_new/features/auth/presentation/views/notification_screen.dart';
+import 'package:fixme_new/features/auth/presentation/views/booking_screen.dart';
+import 'package:fixme_new/features/auth/presentation/views/chat_screen.dart';
+import 'package:fixme_new/features/auth/presentation/views/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'features/splash/presentation/viewmodels/splash_viewmodel.dart';
@@ -49,6 +50,9 @@ class App extends StatelessWidget {
           '/sign-up': (context) => const SignUpScreen(),
           '/home': (context) => HomeScreen(),
           '/notification': (context) => const NotificationScreen(),
+          '/booking': (context) => const BookingScreen(),
+          '/chat': (context) => const ChatScreen(),
+          '/profile': (context) => const ProfileScreen(),
         },
       ),
     );

@@ -1,4 +1,3 @@
-// lib/features/auth/presentation/views/notification_screen.dart
 import 'package:flutter/material.dart';
 
 class NotificationScreen extends StatelessWidget {

@@ -1,4 +1,3 @@
-// lib/features/starting/presentation/viewmodels/starting_viewmodel.dart
 
 import 'package:flutter/material.dart';
 
